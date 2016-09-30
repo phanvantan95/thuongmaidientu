@@ -1,8 +1,8 @@
 # Homework 1 - *Name of App*
 
-**Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
+**MYBLOG** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
-Danh sách sinh viên: **Your Name Here**
+Danh sách sinh viên: **1312514 Phan Văn Tân, 1312119 Đoàn Tiến Đạt**
 
 URL: **Insert your Heroku URL here**
 
