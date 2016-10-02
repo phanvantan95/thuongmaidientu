@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/index'
+
   get 'hello/index'
   get 'calc/index' , to: 'calculator#index'
 
