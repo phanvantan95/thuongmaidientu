@@ -1,0 +1,20 @@
+<h1>Users#index</h1>
+<p>Find me in app/views/users/index.html.erb</p>
+
+<%= link_to('New user', controller: 'users', action: 'new') %>
+<table>
+  <tr>
+    <th>#</th>
+    <th>name</th>
+    <th>actions</th>
+  </tr>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><%= user.name %></td>
+      <td>
+        <%= link_to('Show', user_path(user.id)) %>
+      </td
+    </tr>
+  <% end %>
+</table>

@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+User.create!(name: 'tan')
+User.create!(name: 'dat')
+
+Blogmd.create!(content: 'this is the first blog', comment: 'this is the first comment')
+Blogmd.create!(content: 'this is the second blog', comment: 'this is the second comment')

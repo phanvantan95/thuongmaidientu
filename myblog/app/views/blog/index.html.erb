@@ -1,0 +1,20 @@
+<h1>MY BLOG</h1>
+<p>this is timeline</p>
+
+<%= link_to('create new status', controller: 'blog', action: 'new') %>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Content</th>
+    <th>Comment</th>
+    <th>actions</th>
+  </tr>
+  <% @blogs.each do |blog| %>
+    <tr>
+      <td><%= blog.id %></td>
+      <td><%= blog.content %></td>
+      <td><%= blog.comment %></td>
+      
+    </tr>
+  <% end %>
+</table>
